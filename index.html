@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
-
+    <header class="cabecalho">
+        <nav class="cabecalho__menu"> 
+            <a class="cabecalho__menu-link" href="index.html">Home</a>
+            <a class="cabecalho__menu-link" href="about.html">Sobre Mim</a>
+        </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
@@ -22,16 +25,19 @@
         
                 <div class="apresentacao__links">
                     <h2 class="apresentacao__links-subtitulo">Acesse minhas redes:</h2>
-                    <a class="apresentacao__links-link" href="www.linkedin.com/mariaisabelcoms">LinkedIn</a>
-                    <a class="apresentacao__links-link" href="https://github.com/mariaisabelcoms">GitHub</a>
+                    <a class="apresentacao__links-link" href="https://www.linkedin.com/in/mariaisabelcoms/">
+                        <img src="./assets/linkedin.png" alt="Ícone do LinkedIn">
+                        LinkedIn</a>
+                    <a class="apresentacao__links-link" href="https://github.com/mariaisabelcoms">
+                        <img src="./assets/github.png" alt="Ícone do GitHub">
+                        GitHub</a>
                 </div>
-
         </section>
      
-        <img class="apresentacao__imagem" src="perfil.jpg" alt="Foto de perfil da Maria Isabel">
+        <img class="apresentacao__imagem" src="./assets/perfil.jpg" alt="Foto de perfil da Maria Isabel">
     </main>
-    <footer>
-        
+    <footer class="rodape">
+        <p>Desenvolvido por Alura.</p>
     </footer>
 </body>
 </html>
